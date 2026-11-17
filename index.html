@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#091b33">
+  <title>Информатичка секција | ОШ „Кнегиња Милица“</title>
+  <meta name="description" content="Информатичка секција Основне школе „Кнегиња Милица“ у Новом Београду. Програмирање, роботика, графички дизајн и дигитална уметност.">
+  <link rel="canonical" href="https://infs.me/">
+  <meta property="og:url" content="https://infs.me/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Информатичка секција | ОШ „Кнегиња Милица“">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Почетна страница">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>
+          <strong>INFS</strong>
+          <small>Кнегиња Милица</small>
+        </span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Отвори мени" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Главна навигација">
+        <a class="active" href="index.html">Почетна</a>
+        <a href="o-sekciji.html">О секцији</a>
+        <a href="projekti.html">Пројекти</a>
+        <a href="vesti.html">Новости</a>
+        <a href="kontakt.html">Контакт</a>
+        <a class="nav-button" href="https://oskneginjamilica.mojaskola.org/" target="_blank" rel="noopener">Сајт школе <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="shell hero-content">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> ОШ „КНЕГИЊА МИЛИЦА“ · НОВИ БЕОГРАД</div>
+          <h1>УЧИМО ДА<br><em>СТВАРАМО.</em></h1>
+          <p>Креативна секција за ученике који желе да уче програмирање, роботике и дигиталне технологије кроз практичан рад.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#activities">Истражи секцију <span>→</span></a>
+            <a class="text-link" href="#news">Последње вести <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-code" aria-label="Демонстрација програмирања">
+          <div class="code-window">
+            <div class="code-head">
+              <div class="dots"><i></i><i></i><i></i></div>
+              <span>creativity.js</span>
+              <b>•••</b>
+            </div>
+            <pre><code><span class="pink">const</span> <span class="blue">ученик</span> = {
+  име: <span class="green">"Ти"</span>,
+  интересовање:
+    <span class="green">"технологија"</span>,
+  енергија: <span class="yellow">Infinity</span>
+};
+
+<span class="pink">while</span> (<span class="blue">ученик</span>.енергија) {
+  <span class="blue">ученик</span>.креирај();
+  <span class="blue">ученик</span>.учи();
+}</code></pre>
+            <div class="run-status"><span></span> SYSTEM READY</div>
+          </div>
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="pixel p1"></div><div class="pixel p2"></div><div class="pixel p3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Подручја рада">
+      <div class="ticker-track">
+        <span>РОБОТИКА</span><i>✦</i><span>PROGRAMIRANJE</span><i>✦</i><span>ЦИФАРСКИ ДИЗАЈН</span><i>✦</i><span>ИНТЕРНЕТ БЕЗБЕДНОСТ</span><i>✦</i><span>СТВАРАМО ЗАЈЕДНО</span><i>✦</i>
+        <span>РОБОТИКА</span><i>✦</i><span>PROGRAMIRANJE</span><i>✦</i><span>ЦИФАРСКИ ДИЗАЈН</span><i>✦</i><span>ИНТЕРНЕТ БЕЗБЕДНОСТ</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="activities section" id="activities">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <span class="kicker">01 / АКТИВНОСТИ</span>
+            <h2>Шта радимо?</h2>
+          </div>
+          <p>Од првог реда кода до самостално направљеног робота — учимо кроз експерименте и тимски рад.</p>
+        </div>
+        <div class="activity-grid">
+          <article class="activity-card featured">
+            <span class="card-number">01</span>
+            <div class="card-icon code-icon">&lt;/&gt;</div>
+            <h3>Програмирање</h3>
+            <p>Scratch, Python и рад са веб технологијама кроз занимљиве пројекте.</p>
+            <a href="#news" aria-label="Више о програмирању">Пројекти <span>↗</span></a>
+          </article>
+          <article class="activity-card yellow">
+            <span class="card-number">02</span>
+            <div class="card-icon bot-icon">⌁</div>
+            <h3>Роботика</h3>
+            <p>Сложили смо mBot робота и учимо програмирање његових сензора и покрета.</p>
+            <a href="projekti.html#robotika" aria-label="Више о роботике">Пројекти <span>↗</span></a>
+          </article>
+          <article class="activity-card cyan">
+            <span class="card-number">03</span>
+            <div class="card-icon">◫</div>
+            <h3>Дигитални дизајн</h3>
+            <p>Креирамо постере, анимације, презентације и визуелне приче у дигиталном окружењу.</p>
+            <a href="#news" aria-label="Више о дизајну">Галерија <span>↗</span></a>
+          </article>
+          <article class="activity-card coral">
+            <span class="card-number">04</span>
+            <div class="card-icon">◎</div>
+            <h3>Безбедност на мрежи</h3>
+            <p>Учимо одговорно коришћење интернета, заштиту података и препознавање ризика.</p>
+            <a href="#news" aria-label="Више о безбедности">Савети <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="news section" id="news">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <span class="kicker">02 / Вести и догађаји</span>
+            <h2>Шта се дешава?</h2>
+          </div>
+          <a class="outline-button" href="https://oskneginjamilica.mojaskola.org/" target="_blank" rel="noopener">Све вести на сајту школе <span>↗</span></a>
+        </div>
+        <div class="news-grid">
+          <article class="news-card news-main">
+            <div class="news-art art-game">
+              <div class="game-screen">
+                <span class="game-sun"></span>
+                <span class="game-hill hill-one"></span>
+                <span class="game-hill hill-two"></span>
+                <span class="game-character">◆</span>
+              </div>
+              <span class="tag">ДИГИТАЛНЕ ИГРЕ</span>
+            </div>
+            <div class="news-content">
+              <time>НОВЕМБАР 2026.</time>
+              <h3>Ученици развијају сопствене дигиталне игре</h3>
+              <p>У Scratch окружењу осмишљавамо ликове, светове и правила игре, а затим тестирамо и побољшавамо сваки пројекат.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-art art-code">
+              <div class="mini-window">
+                <div><i></i><i></i><i></i></div>
+                <pre>def create():
+    idea = "Наше"
+    return idea</pre>
+              </div>
+            </div>
+            <div class="news-content">
+              <time>ОКТОБАР 2026.</time>
+              <h3>Python радионица у новој фази учења</h3>
+              <p>Кроз мале програмске задатке учимо променљиве, петље и услове, а знање применимо у практичним пројектима.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-art art-robot">
+              <div class="robot-head"><span></span><i></i></div>
+              <div class="robot-body">::</div>
+            </div>
+            <div class="news-content">
+              <time>НОВЕМБАР 2026.</time>
+              <h3>mBot је склопљен — следи програмирање!</h3>
+              <p>Ученици су успешно склопили робота и припремају програме за кретање, светлосне сигнале и рад сензора.</p>
+            </div>
+          </article>
+          <article class="news-card news-wide">
+            <div class="news-art art-cube">
+              <div class="cube">◆</div>
+            </div>
+            <div class="news-content">
+              <time>УСКОРО</time>
+              <h3>Правимо макете за 3D штампач</h3>
+              <p>Ученици пројектују решења у виртуелном простору и припремају моделирање у стварном обиму.</p>
+            </div>
+          </article>
+          <article class="news-card news-wide" id="digitalization">
+            <div class="news-art art-digital">
+              <div class="digital-cloud">G<span>●</span></div>
+            </div>
+            <div class="news-content">
+              <time>НОВЕМБАР 2026.</time>
+              <h3>Почињемо дигитализацију школе уз Google EDU</h3>
+              <p>Радимо на постепеној дигитализацији школског рада кроз Google образовне алате. Ученици ће кроз одговорну примену учити да сарађују у документима, организују пројекте, стварају дигиталне презентације и користе технологију са циљем бољег и безбеднијег образовања.</p>
+              <a class="text-link" href="google-edu.html">Погледај план дигитализације <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section" id="location">
+      <div class="shell location-grid">
+        <div class="map-card">
+          <div class="map-grid"></div>
+          <div class="road road-a"></div><div class="road road-b"></div><div class="road road-c"></div>
+          <div class="map-pin">
+            <span>⌖</span>
+          </div>
+          <div class="map-label">
+            <strong>ОШ „КНЕГИЊА МИЛИЦА“</strong>
+            <small>Јурија Гагарина 78</small>
+          </div>
+        </div>
+        <div class="location-info">
+          <span class="kicker">03 / ГДЕ НАС НАЋИ</span>
+          <h2>Нови Београд</h2>
+          <address>
+            Јурија Гагарина 78<br>
+            11070 Нови Београд, Србија
+          </address>
+          <a class="button primary" href="https://www.google.com/maps/search/?api=1&query=Juryja+Gagarina+78+Novi+Beograd" target="_blank" rel="noopener">Отвори мапу <span>↗</span></a>
+          <a class="school-link" href="https://oskneginjamilica.mojaskola.org/" target="_blank" rel="noopener">
+            <span class="link-icon">↗</span>
+            <span><small>Званична адреса школе</small><strong>oskneginjamilica.mojaskola.org</strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div class="brand footer-brand">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span><strong>INFS</strong><small>Кнегиња Милица</small></span>
+      </div>
+      <p>Информатичка секција ОШ „Кнегиња Милица“<br>Нови Београд, Јурија Гагарина 78</p>
+      <a href="#top" class="back-top">НА ВРХ ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

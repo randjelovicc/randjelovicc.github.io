@@ -76,6 +76,9 @@ a { color: inherit; text-decoration: none; }
 .hero h1 em { color: var(--yellow); font-style: normal; }
 .hero-copy > p { max-width: 520px; color: #d0dae7; font-size: 16px; line-height: 1.75; }
 .hero-actions { display: flex; align-items: center; gap: 30px; margin-top: 34px; }
+.hero-trust { display:flex;gap:22px;margin-top:42px;padding-top:18px;border-top:1px solid rgba(255,255,255,.11);color:#aebccc;font-size:9px;letter-spacing:.4px;text-transform:uppercase; }
+.hero-trust span { display:flex;align-items:center;gap:7px; }
+.hero-trust b { color:var(--yellow);font:700 18px "Space Grotesk",sans-serif;letter-spacing:-1px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 22px; min-height: 54px; padding: 0 22px; border-radius: 4px; font-size: 13px; font-weight: 800; }
 .button.primary { background: var(--yellow); color: var(--navy); }
 .button.primary span { font-size: 19px; }
@@ -247,6 +250,10 @@ footer { background:#061427; color:white; border-top:1px solid rgba(255,255,255,
 .contact-form button { border:0;cursor:pointer; }
 
 @media (max-width: 900px) {
+  .hero-trust { flex-wrap:wrap; }
+  .impact-grid { grid-template-columns:1fr; padding-top:24px;padding-bottom:24px; }
+  .impact-grid article,.impact-grid article:first-child { padding:16px 0;border-right:0;border-bottom:1px solid var(--line); }
+  .impact-grid article:last-child { border-bottom:0; }
   .nav { position:absolute; top:92px; left:0; right:0; height:auto; display:none; flex-direction:column; align-items:stretch; gap:0; padding:12px 24px 24px; background:#091b33; }
   .nav.open { display:flex; }
   .nav a { padding:14px 0; }
@@ -277,6 +284,7 @@ footer { background:#061427; color:white; border-top:1px solid rgba(255,255,255,
   .hero h1 { font-size:54px; letter-spacing:-3.5px; }
   .hero-copy > p { font-size:14px; max-width:410px; }
   .hero-actions { align-items:flex-start; flex-direction:column; gap:20px; }
+  .hero-trust { display:none; }
   .hero-code { display:none; }
   .section { padding:68px 0; }
   .section-heading { align-items:flex-start; flex-direction:column; gap:18px; }
